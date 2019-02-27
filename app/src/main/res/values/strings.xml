@@ -10,5 +10,6 @@
     <string name="equipos">EQUIPOS</string>
     <string name="title_activity_ubicacion_cancha">Map</string>
     <string name="goleslocal">Local</string>
+    <string name="btnMenu">Menu</string>
 
 </resources>
