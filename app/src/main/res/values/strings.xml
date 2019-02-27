@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">SoccerOrganizer</string>
+    <string name="ArbiNombres">Nombre(s)</string>
+    <string name="ArbiApellPater">Apellido Paterno</string>
+    <string name="ArbiApellMater">Apellido Materno</string>
+    <string name="ArbiEdad">Edad</string>
+    <string name="ArbiLocalidad">Localidad</string>
+    <string name="AbiCalle">Calle</string>
+    <string name="registrar">Registrar</string>
+    <string name="equipos">EQUIPOS</string>
+    <string name="title_activity_ubicacion_cancha">Map</string>
+    <string name="goleslocal">Local</string>
+
 </resources>
