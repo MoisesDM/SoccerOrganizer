@@ -10,5 +10,13 @@
     <string name="equipos">EQUIPOS</string>
     <string name="title_activity_ubicacion_cancha">Map</string>
     <string name="goleslocal">Local</string>
+    <string name="CodigoDeLiga">Ingresa el codigo de la liga</string>
+    <string name="NombreDelEquipo">Nombre del equipo</string>
+    <string name="NombreDtDueño">Nombre(s) del dueño O DT</string>
+    <string name="ApellidoMaterno">Apellido Materno</string>
+    <string name="ApellidoPaterno">Apellido Paterno</string>
+    <string name="NombreJugador">Nombre(s) del jugador</string>
+    <string name="posicionJU">Posicion</string>
+    <string name="numroCami">Numero de playera</string>
 
 </resources>

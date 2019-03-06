@@ -40,7 +40,13 @@
             android:value="@string/google_maps_key" />
 
         <activity android:name=".UbicacionCanchaActivity" />
-        <activity android:name=".RegistroResultadosActivity"></activity>
+        <activity android:name=".RegistroResultadosActivity" />
+        <activity android:name=".BienvenidoDtDueActivity" />
+        <activity android:name=".MenuDTActivity" />
+        <activity android:name=".RegistraJugadoresActivity" />
+        <activity android:name=".TablaGeneralActivity" />
+        <activity android:name=".RolesActivity" />
+        <activity android:name=".MenuJugadoresActivity"></activity>
     </application>
 
 </manifest>
