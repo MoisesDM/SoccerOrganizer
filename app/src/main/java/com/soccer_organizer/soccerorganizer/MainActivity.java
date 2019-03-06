@@ -7,16 +7,18 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-private Button menu;
+private Button menuduenoliga;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-this.menu=findViewById(R.id.btnMenu);
-this.menu.setOnClickListener(new View.OnClickListener() {
+
+
+this.menuduenoliga=findViewById(R.id.btnDuenoLiga);
+this.menuduenoliga.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
-        Intent intent = new Intent(getApplication(),ArbritosActivity.class);
+        Intent intent = new Intent(getApplication(),AdministradorLigaActivity.class);
     startActivity(intent);
     }
 
