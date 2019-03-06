@@ -17,7 +17,7 @@ this.menuduenoliga.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
         Intent intent = new Intent(getApplication(),AdministradorLigaActivity.class);
-    startActivity(intent);
+        startActivity(intent);
     }
 
 });
