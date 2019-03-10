@@ -41,7 +41,7 @@
             android:value="@string/google_maps_key" />
 
         <activity android:name=".UbicacionCanchaActivity" />
-        <activity android:name=".RegistroResultadosActivity"/>
+
         <activity android:name=".CanchasActivity"></activity>
 
         <activity android:name="com.soccer_organizer.soccerorganizer.AdministradorLigaActivity"
