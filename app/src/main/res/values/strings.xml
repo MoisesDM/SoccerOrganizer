@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">SoccerOrganizer</string>
     <string name="ArbiNombres">Nombre(s)</string>
     <string name="ArbiApellPater">Apellido Paterno</string>
@@ -18,5 +18,7 @@
     <string name="NombreJugador">Nombre(s) del jugador</string>
     <string name="posicionJU">Posicion</string>
     <string name="numroCami">Numero de playera</string>
+
+    <string name="btnMenu">Menu</string>
 
 </resources>
