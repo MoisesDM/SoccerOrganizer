@@ -18,5 +18,5 @@
     <string name="NombreJugador">Nombre(s) del jugador</string>
     <string name="posicionJU">Posicion</string>
     <string name="numroCami">Numero de playera</string>
-
+    <string name="btnMenu">Menu</string>
 </resources>
