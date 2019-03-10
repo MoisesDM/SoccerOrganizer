@@ -8,6 +8,6 @@ public class MenuDTActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_DT);
+        setContentView(R.layout.activity_menu_dt);
     }
 }
