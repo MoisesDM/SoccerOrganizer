@@ -8,6 +8,6 @@ public class BienvenidoDtDueActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bienvenido_dt_due);
+        setContentView(R.layout.activity_bienvenido_dt_du);
     }
 }

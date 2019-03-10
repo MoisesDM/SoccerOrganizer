@@ -16,28 +16,39 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MenuSecundario" />
-        <activity android:name=".ArbritosActivity" />
-        <activity android:name=".ListaEquiposActivity" />
-           
-          <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
-        <activity android:name=".UbicacionCanchaActivity" />
-        <activity android:name=".BienvenidoDtDueActivity" />
-        <activity android:name=".MenuDTActivity" />
-        <activity android:name=".RegistraJugadoresActivity" />
-        <activity android:name=".TablaGeneralActivity" />
-        <activity android:name=".RolesActivity" />
-        <activity android:name=".MenuJugadoresActivity"></activity>
-        <activity android:name=".CanchasActivity"></activity>
-
         <activity android:name="com.soccer_organizer.soccerorganizer.AdministradorLigaActivity"
-            android:label="@string/app_name"/>
-        <activity android:name="com.soccer_organizer.soccerorganizer.MenuDuenoLigaActivity"
             android:label="@string/app_name"/>
         <activity android:name="com.soccer_organizer.soccerorganizer.AdministradorRolesActivity"
             android:label="@string/app_name"/>
+        <activity android:name=".ArbritosActivity" />
+        <activity android:name=".BienvenidoDtDueActivity" />
+        <activity android:name=".CanchasActivity"></activity>
+        <activity android:name=".ListaEquiposActivity" />
+        <activity android:name=".ListaJugadoresActivity" />
+        <activity android:name=".MenuDTActivity" />
+        <activity android:name="com.soccer_organizer.soccerorganizer.MenuDuenoLigaActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".MenuJugadoresActivity"></activity>
+        <activity android:name=".MenuSecundario" />
+        <activity android:name=".RegistraJugadoresActivity" />
+        <activity android:name=".RolesActivity" />
+        <activity android:name=".TablaGeneralActivity" />
+        <activity android:name=".UbicacionCanchaActivity" />
+          <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+
+
+
+
+
+
+
+
+
+
     </application>
 
 </manifest>

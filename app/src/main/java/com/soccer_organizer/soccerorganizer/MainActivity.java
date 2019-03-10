@@ -12,7 +12,7 @@ private Button menuduenoliga;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-this.menuduenoliga=findViewById(R.id.btnDuenoLiga);
+this.menuduenoliga=findViewById(R.id.btnDuenoLig);
 this.menuduenoliga.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {

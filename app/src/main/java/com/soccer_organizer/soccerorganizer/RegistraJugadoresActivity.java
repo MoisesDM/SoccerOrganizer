@@ -8,6 +8,6 @@ public class RegistraJugadoresActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registra_jugadores);
+        setContentView(R.layout.activity_registra_jugadore);
     }
 }
