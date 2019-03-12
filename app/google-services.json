@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "262233171073",
+    "firebase_url": "https://proyectointegradora-7accf.firebaseio.com",
+    "project_id": "proyectointegradora-7accf",
+    "storage_bucket": "proyectointegradora-7accf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262233171073:android:1e0496dd36fb245e",
+        "android_client_info": {
+          "package_name": "com.soccer_organizer.soccerorganizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262233171073-1a4rechgi9obrpgku2omvmr8oqgovdji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.soccer_organizer.soccerorganizer",
+            "certificate_hash": "73f53944ce077a69387aad6813b72a25d96ad9d8"
+          }
+        },
+        {
+          "client_id": "262233171073-30o8brm6grgi7a08kqcpdn3do6tcgaip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArw3zK--wWc6X5L_d6xJ3kSqlimel3R78"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262233171073-30o8brm6grgi7a08kqcpdn3do6tcgaip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
