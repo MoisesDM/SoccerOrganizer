@@ -11,7 +11,7 @@
         android:id="@+id/textView13"
         android:layout_width="212dp"
         android:layout_height="70dp"
-        android:text="Bienvenido  Dueño De Liga"
+        android:text="Bienvenido  Dueño De Equipo"
         android:textAlignment="center"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
         android:textSize="24sp"

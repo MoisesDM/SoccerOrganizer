@@ -31,6 +31,7 @@
         <activity android:name=".MenuJugadoresActivity"></activity>
         <activity android:name=".MenuSecundario" />
         <activity android:name=".RegistraJugadoresActivity" />
+        <activity android:name=".RegistroResultadosActivity" />
         <activity android:name=".RolesActivity" />
         <activity android:name=".TablaGeneralActivity" />
         <activity android:name=".UbicacionCanchaActivity" />
