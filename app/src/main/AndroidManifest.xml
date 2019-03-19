@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.soccer_organizer.soccerorganizer">
-
-    <!--
-         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
-         Google Maps Android API v2, but you must specify either coarse or fine
-         location permissions for the 'MyLocation' functionality. 
-    -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,33 +16,39 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MenuSecundario" />
-        <activity android:name=".ArbritosActivity" />
-        <activity android:name=".ListaEquiposActivity" />
-
-
-        <!--
-             The API key for Google Maps-based APIs is defined as a string resource.
-             (See the file "res/values/google_maps_api.xml").
-             Note that the API key is linked <activity android:name=".ListaJugadoresActivity" />to the encryption key used to sign the APK.
-             You need a different API key for each encryption key, including the release key that is used to
-             sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
-        -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
-
-        <activity android:name=".UbicacionCanchaActivity" />
-        <activity android:name=".RegistroResultadosActivity"/>
-        <activity android:name=".CanchasActivity"></activity>
-
         <activity android:name="com.soccer_organizer.soccerorganizer.AdministradorLigaActivity"
-            android:label="@string/app_name"/>
-        <activity android:name="com.soccer_organizer.soccerorganizer.MenuDuenoLigaActivity"
             android:label="@string/app_name"/>
         <activity android:name="com.soccer_organizer.soccerorganizer.AdministradorRolesActivity"
             android:label="@string/app_name"/>
+        <activity android:name=".ArbritosActivity" />
+        <activity android:name=".BienvenidoDtDueActivity" />
+        <activity android:name=".CanchasActivity"></activity>
+        <activity android:name=".ListaEquiposActivity" />
+        <activity android:name=".ListaJugadoresActivity" />
+        <activity android:name=".MenuDTActivity" />
+        <activity android:name="com.soccer_organizer.soccerorganizer.MenuDuenoLigaActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".MenuJugadoresActivity"></activity>
+        <activity android:name=".MenuSecundario" />
+        <activity android:name=".RegistraJugadoresActivity" />
+        <activity android:name=".RegistroResultadosActivity" />
+        <activity android:name=".RolesActivity" />
+        <activity android:name=".TablaGeneralActivity" />
+        <activity android:name=".UbicacionCanchaActivity" />
+          <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+
+
+
+
+
+
+
+
+
 
     </application>
 
