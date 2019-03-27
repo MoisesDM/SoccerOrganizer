@@ -26,7 +26,7 @@
         android:id="@+id/imageView2"
         android:layout_width="135dp"
         android:layout_height="72dp"
-        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/edNombA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.97"
         app:layout_constraintStart_toEndOf="@+id/textView2"
@@ -35,7 +35,7 @@
         app:srcCompat="@drawable/arbitro1" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edNombA"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="288dp"
@@ -52,7 +52,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edapp"
         android:layout_width="168dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -62,14 +62,14 @@
         android:textColorHint="@color/common_google_signin_btn_text_dark_default"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/editText3"
+        app:layout_constraintEnd_toStartOf="@+id/edapm"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/edNombA"
         app:layout_constraintVertical_bias="0.215" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/edapm"
         android:layout_width="160dp"
         android:layout_height="45dp"
         android:ems="10"
@@ -81,12 +81,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.578"
-        app:layout_constraintStart_toEndOf="@+id/editText2"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintStart_toEndOf="@+id/edapp"
+        app:layout_constraintTop_toBottomOf="@+id/edNombA"
         app:layout_constraintVertical_bias="0.222" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/etedad"
         android:layout_width="149dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -95,14 +95,14 @@
         android:textAlignment="center"
         android:textColorHint="@color/common_google_signin_btn_text_dark_default"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editText6"
+        app:layout_constraintBottom_toTopOf="@+id/edlocalidad"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/edapp" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/edlocalidad"
         android:layout_width="174dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -111,14 +111,14 @@
         android:textAlignment="center"
         android:textColorHint="@color/common_google_signin_btn_text_dark_default"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toStartOf="@+id/editText7"
+        app:layout_constraintBottom_toTopOf="@+id/btnResgistrarA"
+        app:layout_constraintEnd_toStartOf="@+id/edCalle"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+        app:layout_constraintTop_toBottomOf="@+id/etedad" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/edCalle"
         android:layout_width="175dp"
         android:layout_height="wrap_content"
         android:autofillHints=""
@@ -128,15 +128,15 @@
         android:textAlignment="center"
         android:textColorHint="@color/common_google_signin_btn_text_dark_default"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnResgistrarA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.238"
-        app:layout_constraintStart_toEndOf="@+id/editText6"
-        app:layout_constraintTop_toBottomOf="@+id/editText5"
+        app:layout_constraintStart_toEndOf="@+id/edlocalidad"
+        app:layout_constraintTop_toBottomOf="@+id/etedad"
         app:layout_constraintVertical_bias="0.489" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnResgistrarA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/registrar"
@@ -148,14 +148,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText6" />
+        app:layout_constraintTop_toBottomOf="@+id/edlocalidad" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="105dp"
         android:layout_height="95dp"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
-        app:layout_constraintEnd_toStartOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/edapp"
+        app:layout_constraintEnd_toStartOf="@+id/edNombA"
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
