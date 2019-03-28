@@ -39,7 +39,7 @@ this.dueño.setOnClickListener(new View.OnClickListener() {
 this.jugador.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
-        Intent intent = new Intent(getApplication(),UbicacionCanchas.class);
+        Intent intent = new Intent(getApplication(),MapsActivity.class);
         startActivity(intent);
 
     }
