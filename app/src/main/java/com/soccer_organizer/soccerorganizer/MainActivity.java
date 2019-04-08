@@ -41,10 +41,8 @@ this.jugador.setOnClickListener(new View.OnClickListener() {
     public void onClick(View v) {
         Intent intent = new Intent(getApplication(),MapsActivity.class);
         startActivity(intent);
-
     }
 });
-
     }
     public String creaCodigo(){
         char[] elementos={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','F','G','H','I','J','K','L','M','N','O',
