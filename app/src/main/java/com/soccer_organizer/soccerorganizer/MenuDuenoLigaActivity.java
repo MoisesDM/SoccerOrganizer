@@ -35,7 +35,7 @@ this.resultado=findViewById(R.id.btnResultados);
         this.roles.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplication(),RolesActivity.class);
+                Intent intent = new Intent(getApplication(),AdministradorRolesActivity.class);
                 startActivity(intent);
             }
 
