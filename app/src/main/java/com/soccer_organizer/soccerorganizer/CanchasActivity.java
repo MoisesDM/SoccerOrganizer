@@ -17,7 +17,7 @@ public class CanchasActivity extends AppCompatActivity {
         this.btncanchas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplication(),UbicacionCanchas.class);
+                Intent intent = new Intent(getApplication(),MapsActivity.class);
                 startActivity(intent);
             }
 
