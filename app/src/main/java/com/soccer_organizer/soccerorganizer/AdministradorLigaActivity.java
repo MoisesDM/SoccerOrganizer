@@ -30,7 +30,7 @@ public class AdministradorLigaActivity extends AppCompatActivity{
 
         this.tvcodigo=findViewById(R.id.tvCodigo);
         this.etcategoria=findViewById(R.id.etCategoria);
-        this.etnombre=findViewById(R.id.EtNombre);
+        this.etnombre=findViewById(R.id.etNombre);
         this.etzona=findViewById(R.id.etZona);
 
 
@@ -39,6 +39,7 @@ public class AdministradorLigaActivity extends AppCompatActivity{
         this.tvcodigo.setText(intent.getExtras().getString("codigo"));
 
         this.registrar=findViewById(R.id.btnRegistroLiga);
+
         this.registrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
