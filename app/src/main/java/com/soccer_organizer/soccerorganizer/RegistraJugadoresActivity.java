@@ -1,5 +1,6 @@
 package com.soccer_organizer.soccerorganizer;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -37,6 +38,9 @@ public class RegistraJugadoresActivity extends AppCompatActivity {
         btnJugadorR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent=getIntent();
+                String liga=intent.getExtras().getString("codigoLiga");
+                String Equip=intent.getExtras().getString("Equipo");
                 String jugador = nombrej.getText().toString();
                 String apep = apellidopj.getText().toString();
 
@@ -49,6 +53,8 @@ public class RegistraJugadoresActivity extends AppCompatActivity {
 
 
                 DatosJugadores dj = new DatosJugadores();
+                dj.setCodigoL(liga);
+                dj.setEquipo(Equip);
                 dj.setNombrej(jugador);
                 dj.setApellidoPaternoj(apep);
                 dj.setAperllidoMaternoj(apem);

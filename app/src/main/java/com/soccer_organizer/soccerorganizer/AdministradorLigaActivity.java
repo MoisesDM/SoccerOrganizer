@@ -55,7 +55,7 @@ public class AdministradorLigaActivity extends AppCompatActivity{
                d.setZona(zona);
                 databaseReference.child("Liga").child(d.getCodigo()).setValue(d);
                 Toast.makeText(AdministradorLigaActivity.this,"Agregado",Toast.LENGTH_SHORT).show();
-
+                intent.putExtra("codigo",codg);
                 startActivity(intent);
             }
 

@@ -16,7 +16,7 @@ import Modelo.DatosDueñodelequipo;
 
 public class BienvenidoDtDueActivity extends AppCompatActivity {
     Button registro;
-    EditText nombreE, nombreDT, apellidop, Apellidom;
+    EditText codigoL, nombreE, nombreDT, apellidop, Apellidom;
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
 
@@ -25,6 +25,7 @@ public class BienvenidoDtDueActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bienvenido_dt_du);
+        this.codigoL = findViewById(R.id.TxtCodigoLiga);
         this.nombreE = findViewById(R.id.TxtNombreEquipo);
         this.nombreDT = findViewById(R.id.TxtNombreDueODt);
         this.apellidop = findViewById(R.id.TxtApePaternoJu);
@@ -35,12 +36,14 @@ public class BienvenidoDtDueActivity extends AppCompatActivity {
         this.registro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String Liga = codigoL.getText().toString().trim();
                 String Equipo = nombreE.getText().toString().trim();
                 String Dueño = nombreDT.getText().toString().trim();
                 String Apellidopaterno = apellidop.getText().toString().trim();
                 String ApellidoMaterno = Apellidom.getText().toString().trim();
 
                 DatosDueñodelequipo dt=new DatosDueñodelequipo();
+                dt.setCodigoLiga(Liga);
                 dt.setNombreDT(Dueño);
                 dt.setNombreEquipo(Equipo);
                 dt.setApellido_paterno(Apellidopaterno);
@@ -49,6 +52,8 @@ public class BienvenidoDtDueActivity extends AppCompatActivity {
                 Toast.makeText(BienvenidoDtDueActivity.this, "Exito ", Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(getApplication(), MenuDTActivity.class);
+                intent.putExtra("codigoLiga",Liga);
+                intent.putExtra("Equipo",Equipo);
                 startActivity(intent);
             }
         });

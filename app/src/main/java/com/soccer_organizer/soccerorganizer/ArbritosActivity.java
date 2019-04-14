@@ -1,5 +1,6 @@
 package com.soccer_organizer.soccerorganizer;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -40,6 +41,8 @@ public class ArbritosActivity extends AppCompatActivity {
         RegistrarA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent=getIntent();
+                String liga=intent.getExtras().getString("codigo");
                 String nom = nomb.getText().toString();
                 String apellidop = app.getText().toString();
                 String apellidom = apm.getText().toString();
@@ -50,6 +53,7 @@ public class ArbritosActivity extends AppCompatActivity {
 
                 DatosArbitros Arbitro = new DatosArbitros();
                 Arbitro.setId(UUID.randomUUID().toString());
+                Arbitro.setCodigoLiga(liga);
                 Arbitro.setNombre(nom);
                 Arbitro.setApellidop(apellidop);
                 Arbitro.setApellidom(apellidom);
