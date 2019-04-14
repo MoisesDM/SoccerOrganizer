@@ -1,6 +1,7 @@
 package Modelo;
 
 public class DatosArbitros {
+    private String CodigoLiga;
     private String nombre;
     private String id;
     private String apellidop;
@@ -12,7 +13,8 @@ public class DatosArbitros {
     public DatosArbitros() {
     }
 
-    public DatosArbitros(String nombre, String id, String apellidop, String apellidom, int edad, String localidad, String calle) {
+    public DatosArbitros(String codigoLiga, String nombre, String id, String apellidop, String apellidom, int edad, String localidad, String calle) {
+        CodigoLiga = codigoLiga;
         this.nombre = nombre;
         this.id = id;
         this.apellidop = apellidop;
@@ -22,6 +24,13 @@ public class DatosArbitros {
         Calle = calle;
     }
 
+    public String getCodigoLiga() {
+        return CodigoLiga;
+    }
+
+    public void setCodigoLiga(String codigoLiga) {
+        CodigoLiga = codigoLiga;
+    }
 
     public String getNombre() {
         return nombre;

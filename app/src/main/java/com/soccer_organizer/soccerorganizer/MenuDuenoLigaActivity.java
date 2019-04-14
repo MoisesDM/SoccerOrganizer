@@ -20,6 +20,8 @@ public class MenuDuenoLigaActivity  extends AppCompatActivity {
 this.Equipos=findViewById(R.id.btnEquipos);
 this.Arbitros=findViewById(R.id.btnArbitros);
 this.resultado=findViewById(R.id.btnResultados);
+        Intent intent=getIntent();
+        final String codigo=intent.getExtras().getString("codigo");
         this.canchas=findViewById(R.id.btnCanchas);
         this.canchas.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,7 +37,7 @@ this.resultado=findViewById(R.id.btnResultados);
         this.roles.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplication(),RolesActivity.class);
+                Intent intent = new Intent(getApplication(),AdministradorRolesActivity.class);
                 startActivity(intent);
             }
 
@@ -45,6 +47,7 @@ this.resultado=findViewById(R.id.btnResultados);
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(),ArbritosActivity.class);
+                intent.putExtra("codigo",codigo);
                 startActivity(intent);
             }
         });

@@ -2,10 +2,19 @@ package Modelo;
 
 public class DatosDueñodelequipo {
 
+    private String codigoLiga;
     private String nombreEquipo;
     private String nombreDT;
     private String apellido_paterno;
     private String Apellido_materno;
+
+    public String getCodigoLiga() {
+        return codigoLiga;
+    }
+
+    public void setCodigoLiga(String codigoLiga) {
+        this.codigoLiga = codigoLiga;
+    }
 
     public String getNombreEquipo() {
         return nombreEquipo;
@@ -39,17 +48,14 @@ public class DatosDueñodelequipo {
         Apellido_materno = apellido_materno;
     }
 
-
-    public DatosDueñodelequipo(String nombreEquipo, String nombreDT, String apellido_paterno, String apellido_materno) {
+    public DatosDueñodelequipo(String codigoLiga, String nombreEquipo, String nombreDT, String apellido_paterno, String apellido_materno) {
+        this.codigoLiga = codigoLiga;
         this.nombreEquipo = nombreEquipo;
         this.nombreDT = nombreDT;
         this.apellido_paterno = apellido_paterno;
         Apellido_materno = apellido_materno;
     }
 
-
     public DatosDueñodelequipo() {
     }
-
-
 }

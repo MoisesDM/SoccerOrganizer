@@ -17,6 +17,9 @@ public class MenuDTActivity extends AppCompatActivity {
         this.jugadore = findViewById(R.id.BtnRegistroJugadores);
         this.equipos = findViewById(R.id.BtnEquipos);
         this.tabla = findViewById(R.id.BtnTablaPosiciones);
+        Intent intent=getIntent();
+        final String codigos=intent.getExtras().getString("codigoLiga");
+        final String equipo=intent.getExtras().getString("Equipo");
         this.partidos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -29,6 +32,8 @@ public class MenuDTActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent
                         = new Intent(getApplication(), RegistraJugadoresActivity.class);
+                intent.putExtra("codigoLiga",codigos);
+                intent.putExtra("Equipo",equipo);
                 startActivity(intent);
             }
         });

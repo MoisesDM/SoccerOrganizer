@@ -1,6 +1,8 @@
 package Modelo;
 
 public class DatosJugadores {
+    private String codigoL;
+    private String Equipo;
     private String nombrej;
     private String apellidoPaternoj;
     private String AperllidoMaternoj;
@@ -8,6 +10,22 @@ public class DatosJugadores {
     private String numero_playera;
     private String localidad;
     private String Calle;
+
+    public String getCodigoL() {
+        return codigoL;
+    }
+
+    public void setCodigoL(String codigoL) {
+        this.codigoL = codigoL;
+    }
+
+    public String getEquipo() {
+        return Equipo;
+    }
+
+    public void setEquipo(String equipo) {
+        Equipo = equipo;
+    }
 
     public String getNombrej() {
         return nombrej;
@@ -65,7 +83,11 @@ public class DatosJugadores {
         Calle = calle;
     }
 
-    public DatosJugadores(String nombrej, String apellidoPaternoj, String aperllidoMaternoj, String posicion, String numero_playera, String localidad, String calle) {
+
+
+    public DatosJugadores(String codigoL, String equipo, String nombrej, String apellidoPaternoj, String aperllidoMaternoj, String posicion, String numero_playera, String localidad, String calle) {
+        this.codigoL = codigoL;
+        Equipo = equipo;
         this.nombrej = nombrej;
         this.apellidoPaternoj = apellidoPaternoj;
         AperllidoMaternoj = aperllidoMaternoj;
